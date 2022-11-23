@@ -23,19 +23,23 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col">Day</th>
-                            <th scope="col">Article Name</th>
-                            <th scope="col">Author</th>
-                            <th scope="col">Shares</th>
-                            <th scope="col">Actions</th>
+                            <th scope="col">Custid</th>
+                            <th scope="col">custFirstName</th>
+                            <th scope="col">custSecondName</th>
+                            <th scope="col">custEmail</th>
+                            <th scope="col">custPhone</th>
+                            <th scope="col">custAddress</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Bootstrap 4 CDN and Starter Template</td>
-                            <td>Cristina</td>
-                            <td>2.846</td>
+                            <th scope="row">101</th>
+                            <td>Sai</td>
+                            <td>Varun</td>
+                            <td>Sai@gmail.com</td>
+                            <td>255355455</td>
+                            <td>Bangalore</td>
                             <td>
 
                                 <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
@@ -78,18 +82,34 @@
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
+                            <label for="cust_id" class="col-form-label">CustomerId:</label>
+                            <input type="text" id="cust_id">
                         </div>
                         <div class="mb-3">
-                            <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
+                            <label for="cust_firstname" class="col-form-label">custFirstName:</label>
+                            <input type="text" id="cust_firstname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cust_secondname" class="col-form-label">custSecondName:</label>
+                            <input type="text" id="cust_secondname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cust_email" class="col-form-label">custEmail:</label>
+                            <input type="text" id="cust_email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cust_phone" class="col-form-label">custPhone:</label>
+                            <input type="text" id="cust_phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cust_address" class="col-form-label">custAddress:</label>
+                            <input type="text" id="cust_address">
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
+                    <button type="button" class="btn btn-primary">Add Customer</button>
                 </div>
             </div>
         </div>
